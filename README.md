@@ -3,7 +3,7 @@ Datos para curso de ML
 
 ## Archivo publicado
 
-[04-Fichero_para_EJERCICIO_3.json](04-Fichero_para_EJERCICIO_3.json) contiene los datos facilitados para el ejercicio de lectura
+[04-Fichero_para_EJERCICIO_3.json](04-Fichero_para_EJERCICIO_3.json) contiene los datos facilitados para el ejercicio 3 de lectura
 de JSON del módulo 3:
 
 - Competición: **English Premier League 2010/11**.
