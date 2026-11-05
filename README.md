@@ -12,8 +12,6 @@ de JSON del módulo 3:
 - Estructura: un campo `name` y una lista `matches`; los equipos de cada partido
   aparecen en `team1` y `team2`.
 
-La copia se conserva sin modificaciones respecto al archivo proporcionado.
-
 ## Enlace directo
 
 [Descargar o abrir el JSON](https://raw.githubusercontent.com/mleyvalamas/D-ML-DATOS/main/04-Fichero_para_EJERCICIO_3.json).
