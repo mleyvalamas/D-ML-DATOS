@@ -41,3 +41,45 @@ a94631cc82fd4034d4da5f5594d32cb191942f0b594e3a9cd9dcf29fe7dfa707
 ```
 
 Este repositorio público contiene los datos de ejemplo y su descripción.
+
+## Módulo 6 · Ejercicio 1 · Datos de GOOG
+
+[04-Fichero_para_EJERCICIO_1_MODULO_6.csv](04-Fichero_para_EJERCICIO_1_MODULO_6.csv)
+es una copia íntegra del CSV entregado para el examen del módulo 6. Contiene
+1.346 registros, desde 2016-01-04 hasta 2021-05-07, con las columnas `Date`,
+`Open`, `High`, `Low`, `Adj Close` y `Volume`. La variable objetivo del ejercicio
+es `Adj Close`, el cierre ajustado.
+
+### Lectura remota del CSV
+
+Este enlace devuelve el contenido CSV, sin la página de presentación de GitHub:
+
+```text
+https://raw.githubusercontent.com/mleyvalamas/D-ML-DATOS/main/04-Fichero_para_EJERCICIO_1_MODULO_6.csv
+```
+
+Ejemplo básico de lectura con Pandas:
+
+```python
+import pandas as pd
+
+origen = "https://raw.githubusercontent.com/mleyvalamas/D-ML-DATOS/main/04-Fichero_para_EJERCICIO_1_MODULO_6.csv"
+datos = pd.read_csv(origen, parse_dates=["Date"])
+print(datos.head())
+```
+
+### Procedencia e integridad del CSV
+
+La copia procede de
+[D-ML · módulo 6](https://github.com/mleyvalamas/D-ML/blob/e3e64df/modulos/modulo_06/tareas/examen/datos/04-Fichero_para_EJERCICIO_1_MODULO_6.csv).
+Las indicaciones del curso identifican los datos como históricos de GOOG y citan
+Yahoo Finance como fuente. Esta URL sirve el archivo proporcionado por el curso
+desde GitHub; no realiza una consulta en directo a Yahoo ni actualiza sus precios.
+
+El original y la copia publicada tienen 70.794 bytes y la misma huella SHA-256:
+
+```text
+89eb059f63e759959f8b85a4c9da64d90df750e7ed99eec2711d481ebfc9b4c8
+```
+
+El archivo JSON del módulo 3 se conserva sin cambios.
