@@ -83,3 +83,34 @@ El original y la copia publicada tienen 70.794 bytes y la misma huella SHA-256:
 ```
 
 El archivo JSON del módulo 3 se conserva sin cambios.
+
+## Módulo 7 · Ejercicio 1 · Calidad del vino
+
+[winequality-red.csv](winequality-red.csv) conserva íntegro el CSV adjuntado por
+el alumno el 24 de noviembre de 2026 para el examen del módulo 7.
+
+- 1.599 filas, once características fisicoquímicas y el objetivo `quality`.
+- Campos separados por punto y coma (`;`).
+- Se conservan las 240 filas repetidas adicionales, sin limpiar ni transformar.
+
+### Lectura remota y copia local
+
+[Descargar el CSV](https://raw.githubusercontent.com/mleyvalamas/D-ML-DATOS/main/winequality-red.csv).
+Para leerlo con Pandas se debe indicar `sep=";"`. El examen prevé un único
+programa con lectura remota por defecto y una opción local explícita, siguiendo
+el criterio del módulo 6.
+
+### Procedencia e integridad
+
+Fuente de referencia: [Wine Quality de UCI](https://archive.ics.uci.edu/dataset/186/wine+quality),
+Cortez, P., Cerdeira, A., Almeida, F., Matos, T. y Reis, J. (2009),
+[DOI 10.24432/C56S3T](https://doi.org/10.24432/C56S3T), licencia CC BY 4.0.
+
+La copia publicada procede del archivo aportado por el alumno. No se presenta
+como una descarga directa de UCI realizada desde el entorno de trabajo.
+
+Tamaño: 84.199 bytes. SHA-256:
+
+```text
+4a402cf041b025d4566d954c3b9ba8635a3a8a01e039005d97d6a710278cf05e
+```
